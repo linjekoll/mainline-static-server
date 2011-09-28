@@ -21,12 +21,16 @@ bundle exec ruby server.rb -p 31415
 ## Server start [development]
 
 ``` bash
-bundle exec shotgun start.ru
+bundle exec shotgun start.ru -p 31415
 ```
 
 Using [shotgun](https://rubygems.org/gems/shotgun) will cause the server to restart everytime `server.rb` is changed.
 
-Default port is in development is 9393.
+... or start the server using [Foreman](http://railscasts.com/episodes/281-foreman).
+
+`foreman start`
+
+Beanstalkd needs to be started manually using `beanstalkd`.
 
 ## Requests
 
