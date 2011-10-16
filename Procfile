@@ -1,1 +1,1 @@
-server: bundle exec ruby ./server.rb -p 31415
+server: bundle exec shotgun ./start.ru -p 31415
