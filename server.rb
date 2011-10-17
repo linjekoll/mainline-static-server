@@ -1,9 +1,20 @@
 require "sinatra"
-require "json"
+require "jsonify"
 
-post "/" do
+class String
+  def from_json
+    JSON.parse(self)
+  end
+end
+
+def static(file)
+  File.read(file)
+end
+
+get "/lines/:line_id/stops" do
+  static("static/stops.json").from_json[params["line_id"]].to_json
 end
 
 get "/" do
-  File.read(File.join("public", "index.html"))
+  static("public/index.html")
 end

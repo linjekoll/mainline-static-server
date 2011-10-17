@@ -29,3 +29,20 @@ Using [shotgun](https://rubygems.org/gems/shotgun) will cause the server to rest
 ... or start the server using [foreman](http://railscasts.com/episodes/281-foreman).
 
 `foreman start`
+
+## Requests
+
+### GET /lines/:line_id/stops
+
+Returns a list of stops for the given station `line_id`.
+
+``` javascript
+[{
+  "name": "Mölndals sjukhus",
+  "id": 2,
+  "time_from_prev_station": 120,
+  "destination_station": 4,
+  "origin_station": 1,
+  "sid": "00012130"
+}]
+```

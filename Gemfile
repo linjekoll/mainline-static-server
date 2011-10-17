@@ -1,7 +1,7 @@
 source :gemcutter
 
 gem "sinatra"
-gem "json"
+gem "jsonify"
 
 group :development do
   gem "shotgun"
