@@ -3,6 +3,9 @@
     "name": "4",
     "id": 4,
     "foreground-color": "green",
-    "background-color": "white"
+    "background-color": "white",
+    "provider": 1,
+    "stops" : [],
+    "vehicleType": 1
   }
 }
