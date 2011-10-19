@@ -5,7 +5,8 @@
     "foreground-color": "green",
     "background-color": "white",
     "provider": 1,
-    "stops" : [],
-    "vehicleType": 1
+    "stops": [],
+    "vehicleType": 1,
+    "end_stations": [1, 4]
   }
 }
