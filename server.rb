@@ -12,8 +12,13 @@ def static(file)
 end
 
 get "/lines/:line_id/stops" do
-  puts "/lines/:line_id/stops"
+  puts "/lines/#{params["line_id"]}/stops"
   static("static/stops.json").from_json[params["line_id"]].to_json
+end
+
+get "/lines/:line_id" do
+  puts "/lines/#{params["line_id"]}"
+  static("static/lines.json").from_json[params["line_id"]].to_json
 end
 
 get "/" do
