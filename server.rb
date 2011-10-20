@@ -33,3 +33,11 @@ end
 get "/static/line.template.html" do
   static("static/line.template.html")
 end
+
+get "/static/line.list.template.html" do
+  static("static/line.list.template.html")
+end
+
+get "/rest/lines/query/:term" do
+  static("static/lines.json").from_json.values.shuffle[0..3].to_json
+end

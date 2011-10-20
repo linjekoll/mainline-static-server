@@ -1,6 +1,46 @@
 {
   "4": {
-    "name": "4",
+    "name": "5",
+    "id": 4,
+    "foreground-color": "green",
+    "background-color": "white",
+    "provider": 1,
+    "stops": [],
+    "vehicleType": 1,
+    "end_stations": [1, 4]
+  },
+  "5": {
+    "name": "5",
+    "id": 4,
+    "foreground-color": "green",
+    "background-color": "white",
+    "provider": 1,
+    "stops": [],
+    "vehicleType": 1,
+    "end_stations": [1, 4]
+  },
+  "6": {
+    "name": "Båt 4",
+    "id": 4,
+    "foreground-color": "green",
+    "background-color": "white",
+    "provider": 1,
+    "stops": [],
+    "vehicleType": 1,
+    "end_stations": [1, 4]
+  },
+  "7": {
+    "name": "7",
+    "id": 4,
+    "foreground-color": "green",
+    "background-color": "white",
+    "provider": 1,
+    "stops": [],
+    "vehicleType": 1,
+    "end_stations": [1, 4]
+  },
+  "8": {
+    "name": "Buss 8",
     "id": 4,
     "foreground-color": "green",
     "background-color": "white",
