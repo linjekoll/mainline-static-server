@@ -6,7 +6,8 @@
     "next_station": 2,
     "previous_station": null,
     "sid": "00012110",
-    "position": 1
+    "position": 1,
+    "line_ids": [1,2,3,4]
   },
   {
     "name": "Mölndals sjukhus",
@@ -15,7 +16,8 @@
     "next_station": 3,
     "previous_station": 1,
     "sid": "00012130",
-    "position": 2
+    "position": 2,
+    "line_ids": [1,2,3,4]
   },
   {
     "name": "Lackarebäck",
@@ -24,7 +26,8 @@
     "next_station": 4,
     "previous_station": 2,
     "sid": "00012140",
-    "position": 3
+    "position": 3,
+    "line_ids": [1,2,3,4]
   },
   {
     "name": "Krokslätts Fabriker",
@@ -33,6 +36,7 @@
     "next_station": null,
     "previous_station": 3,
     "sid": "00012141",
-    "position": 4
+    "position": 4,
+    "line_ids": [1,2,3,4]
   }]
 }

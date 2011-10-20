@@ -41,3 +41,7 @@ end
 get "/rest/lines/query/:term" do
   static("static/lines.json").from_json.values.shuffle[0..3].to_json
 end
+
+get "/rest/stops/query/:term" do
+  static("static/stops.json").from_json["4"].map{|s| s["line_id"] = "4"; s}.shuffle[0..3].to_json
+end
