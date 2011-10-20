@@ -29,3 +29,7 @@ end
 get "/" do
   static("public/index.html")
 end
+
+get "/static/line.template.html" do
+  static("static/line.template.html")
+end
