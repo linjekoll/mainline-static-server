@@ -1,5 +1,7 @@
 # Mainline static server
 
+[![Join the chat at https://gitter.im/linjekoll/mainline-static-server](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/linjekoll/mainline-static-server?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Production port is *31415*.
 
 ## How set up
